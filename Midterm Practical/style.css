@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    color: gray;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+.stories p{
+    color: rgb(101, 101, 101);
+}
+
+p{
+    padding: 12px;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
+}
+
+@media screen and (min-width: 768px){
+    nav a:hover{
+        color: gray;
+        background-color: white;
+    }
+}
